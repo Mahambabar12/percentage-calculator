@@ -6,7 +6,7 @@ h2{
     text-shadow: 2px 2px 4px #000000;
 }
 body {
-    background-color:rgb(133, 206, 255);
+    background-color:rgb(195, 243, 156);
     animation-name: example;
     animation-duration: 3s;
     width: 100%;
@@ -14,7 +14,7 @@ body {
   }
   
   @keyframes example {
-    from {background-color:rgb(133, 206, 255);}
+    from {background-color:rgb(233, 96, 238);}
     to {background-color:rgb(247, 170, 221);}
   }
   div {
