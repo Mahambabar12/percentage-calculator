@@ -13,7 +13,7 @@ function calculate() {
     marksObtained = Number(marksObtained)
     // "460" * "10"
     // "460" + "10" > "46010"
-    let result = marksObtained * 100 / totalMarks;
+    let result = marksObtained *100 / totalMarks;
     // document.querySelector("#result").innerHTML = "you have got " + result + "%"; //es5
     document.querySelector("#result").innerHTML = `you have got ${result}%;`//es6 string templating
 }
